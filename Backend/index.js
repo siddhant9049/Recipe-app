@@ -27,7 +27,7 @@ app.post("/register",async(req,res)=>{
         status:"Success",
         user,
    
-    
+
     })
     }catch(e){
         res.status(400).json(
